@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Wine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js" defer></script>
+</head>
+<body background="./assets/img/compras.jpg">
+    <header>
+        <div class="containerHeader">
+            <section class="logotipo">
+                <p class="marca">Elegance Wine</p>
+            </section>
+            <form>
+                <input id="searchbar" onkeyup="search_wine()" type="text" name="search" placeholder="Pesquisa por nome">
+                <div class="divBtnPesquisa">
+                    <button class="btnPesquisa">Pesquisar</button>
+                </div>
+            </form>
+            <nav>
+                <ul class="ulMenu">
+                    <!-- <li class="liMenu">Todos</li>
+                    <li class="liMenu">Vinhos Nacionais</li>
+                    <li class="liMenu">Vinhos Importados</li>
+                    <li class="liMenu">Espumantes</li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="produtos">
+            <!-- <ul class="ulProdutos">
+                <li class="liProdutos"></li>
+            </ul> -->
+        </section>
+        <section class="sectionCarrinho">
+            <div class="divCarrinho">
+                <div class="divTituloCarrinho">
+                    <p class="tituloCarrinho">Adega Virtual</p>
+                </div>
+                <div class="rotuloCarrinho">
+                    <p class="nomeItemCarrinho">Item</p>
+                    <p class="valorItemCarrinho">Valor</p>
+                </div>
+                <div class="itensCarrinho">
+                    <ul class="ulCarrinho">
+                    <!-- <li class="linha">
+                            <p class="nomeItemLinha">Faces do Brasil</p>
+                            <div class="alinhaLinha">
+                                <p class="valorItemLinha">R$ 5.000.00</p> 
+                                <button class="remover">-</button>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="total">
+                    <p class="quantidade">Qtd.: 0</p>
+                    <p class="valorTotal">R$ 0.00</p>
+                </div>
+                <div class="divComprar">
+                    <button class="btnFinalizar">Finalizar Compra</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
